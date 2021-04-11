@@ -1,0 +1,76 @@
+.cart-display {
+    background-color: #e3e3e3;
+    position: relative;
+    .cart-display__header__name {
+        margin-left: 1rem;
+        font-weight: 600;
+    }
+    .cart-display__item-info {
+        border: 2px solid white;
+        background-color: #fff;
+        margin: 10px 15px;
+        display: flex;
+        .cart-display__item-info__img {
+            width: 20%;
+            .img-test {
+                width: 100%;
+                padding-top: 15px;
+            }
+        }
+        .cart-display__item-info__text {
+            width: 60%;
+            padding-left: 10px;
+            font-size: 0.9rem;
+            .cart-display__item-info__qty {
+                border: 1px solid black;
+                text-align: center;
+                max-width: 30%;
+                min-width: 70px;
+            }
+        }
+        .cart-display__item-info__price {
+            padding-top: 15px;
+            text-align: center;
+            width: 10%;
+            .price-test {
+                color: #e22e39;
+                font-weight: 600;
+                padding-top: 15px;
+            }
+            .delete-test {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .cart-display__footer {
+        background-color: #fff;
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        .cart-display__footer__btn {
+            width: 18vw;
+            .btn-test {
+                width: 90%;
+                height: 5vh;
+                margin: 20px 0px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        .cart-display__footer__final-price {
+            margin-left: -30px; 
+            .final-price-text {
+                margin-top: 20px;
+                font-size: 0.8rem;
+            }
+            .final-price-test {
+                font-weight: 600;
+            }
+        }
+    }
+}

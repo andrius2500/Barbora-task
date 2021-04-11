@@ -1,0 +1,83 @@
+.grocery-display {
+  background-color: #d9d9d2;
+  width: 100%;
+}
+.grocery-display .grocery-display__container {
+  background-color: #fff;
+  border-top: 1px solid black;
+}
+.grocery-display .grocery-display__info {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grocery-display .grocery-display__info .grocery-display__price {
+  color: #e22e39;
+  font-weight: 600;
+  font-size: 1.2rem;
+  width: 50%;
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 5px;
+}
+.grocery-display .grocery-display__info .grocery-display__btn {
+  background-color: #e22e39;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: 35vw;
+  height: 4vh;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.grocery-display .grocery-display__info .grocery-display__btn:hover {
+  cursor: pointer;
+}
+.grocery-display .grocery-display__info .grocery-display__img {
+  width: 20vw;
+}
+.grocery-display .grocery-display__info .grocery-display__text {
+  font-size: 0.8rem;
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .grocery-display {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    justify-content: center;
+  }
+  .grocery-display .grocery-display__container {
+    max-width: 14vw;
+    margin: 5px 20px;
+    border: none;
+  }
+  .grocery-display .grocery-display__container .grocery-display__info {
+    margin: 5px 15px;
+    grid-template-columns: auto;
+  }
+  .grocery-display .grocery-display__container .grocery-display__info .grocery-display__img {
+    width: 85%;
+    margin-left: 15px;
+  }
+  .grocery-display .grocery-display__container .grocery-display__info .grocery-display__text {
+    font-size: 0.9rem;
+    margin-left: 0px;
+  }
+  .grocery-display .grocery-display__container .grocery-display__info .grocery-display__btn {
+    width: 12vw;
+    padding: 8px;
+    font-size: 0.8rem;
+    height: auto;
+    margin: 10px 0px;
+  }
+  .grocery-display .grocery-display__container .grocery-display__info .grocery-display__price {
+    width: 100%;
+    font-size: 1.625rem;
+    margin-left: 0px;
+    margin-bottom: 5px;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,40 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+.header__container .header__logo__img {
+  width: 8rem;
+}
+.header__container .header__cart {
+  padding-top: 8px;
+}
+.header__container .header__cart .header__cart__btn {
+  min-width: 4vw;
+  border-radius: 15px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+}
+.header__container .header__cart .header__cart__btn:hover {
+  cursor: pointer;
+}
+.header__container .header__cart .header__cart__btn .header__cart__img {
+  margin-right: 2rem;
+}
+.header__container .header__cart .header__cart__btn .header__cart__price {
+  position: relative;
+  right: 25%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .header__container .header__logo__img {
+    width: 10rem;
+  }
+  .header__container .header__cart {
+    padding-top: 1rem;
+    margin-right: 10rem;
+  }
+  .header__container .header__cart .header__cart__btn {
+    border: 1px solid black;
+  }
+}/*# sourceMappingURL=styles.css.map */
