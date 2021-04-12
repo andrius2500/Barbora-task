@@ -1,0 +1,85 @@
+.grocery-dsplay__action-container {
+    margin-top: 20px;
+    margin-left: 20px;
+    .grocery-display__action-btn {
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+        width: 10rem;
+        border-radius: 20px;
+        height: 2rem;
+        .action-btn {
+            background-color: #fff;
+            margin-left: 15px;
+            margin-right: 15px;
+            border: none;
+            outline: none;
+            width: 1.5rem;
+            &:hover {
+                cursor: pointer;
+            }
+            &--left {
+                border-right: 1px solid black;
+                height: 2rem;
+            }
+            &--right {
+                border-left: 1px solid black;
+                height: 2rem;
+            }
+        }
+        .action-qty {
+            margin: auto;
+            font-size: 0.7rem;
+        }
+    }
+    .grocery-dsplay__action-quant {
+        .grocery-dsplay__action-quant__text {
+            margin-left: 40px;
+            margin-top: -15px;
+            font-size: 0.7rem;
+            color: red;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+//desktop version
+@media only screen and (min-width: 1000px) {
+    .grocery-dsplay__action-container {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 8px;
+        .grocery-display__action-btn {
+            width: 12vw;
+            height: 3vh;
+            .action-btn {
+                background-color: #fff;
+                margin-left: 10px;
+                margin-right: 10px;
+                width: 2.5vw;
+                &--left {
+                    height: 3vh;
+                }
+                &--right {
+                    height: 3vh;
+                }
+            }
+            .action-qty {
+                font-size: 1vw;
+            }
+        }
+        .grocery-dsplay__action-quant {
+            width: 80%;
+            margin: auto;
+            .grocery-dsplay__action-quant__text {
+                margin-left: 0px;
+                font-size: 0.6vw;
+                margin-top: -5px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+

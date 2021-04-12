@@ -3,7 +3,7 @@ const grocery = [
         id: 1,
         image: 'https://pagrindinis.barbora.lt/api/images/GetInventoryImage?id=3ddfbc67-db22-455d-b656-6cbba97c5b95',
         text: 'Kvietiniai EKSTRA miltai KAUNO GRŪDAI, 405 D, 1,75 kg',
-        price: 1.26
+        price: 1.26,
     },
     {
         id: 2,
@@ -33,8 +33,7 @@ const grocery = [
         id: 6,
         image: 'https://pagrindinis.barbora.lt/api/images/GetInventoryImage?id=59c4bb0b-cd72-4ddf-bb29-2c8d0c7c3ed1',
         text: 'Kvietiniai EKSTRA miltai KAUNO GRŪDAI, 405 D, 1,75 kg',
-        price: 1.26,
-        button: false
+        price: 1.26
     },
     {
         id: 7,
@@ -52,8 +51,7 @@ const grocery = [
         id: 9,
         image: 'https://pagrindinis.barbora.lt/api/images/GetInventoryImage?id=8d017bc1-9807-464d-adeb-dd6192bd8b98',
         text: 'Kvietiniai EKSTRA miltai KAUNO GRŪDAI, 405 D, 1,75 kg',
-        price: 5.25,
-        button: false
+        price: 5.25
     },
     {
         id: 10,

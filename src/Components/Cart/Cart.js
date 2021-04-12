@@ -20,7 +20,7 @@ function Cart(props) {
                             <div key={item.id}>
                             <div className='cart-display__item-info'>
                                 <div className='cart-display__item-info__img'>
-                                    <img src={item.image} alt='test image' className='img-test'/>
+                                    <img src={item.image} alt='grocery' className='img-test'/>
                                 </div>
                                 <div className='cart-display__item-info__text'>
                                     <p className='cart-display__item-info__paragraph'>{item.text}</p>

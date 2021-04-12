@@ -1,9 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ActionButtonContainer from '../ActionButtonContainer/ActionButtonContainer.js'
 
 import './styles/styles.css';
 
 function GroceryList(props) {
-    const { onAdd, product} = props;
+    const { onAdd, onRemove, product, cartItems} = props;
+    const [display, setDisplay] = useState(false);
+    const [mainDisplay, setMainDisplay] = useState(true);
+
+    const quant = cartItems.map(item => {
+        if (item.id === product.id) {
+            return item.qty;
+        }
+    });
+    
+    console.log(quant)
+
+    const showActionContainer = () => {
+        setDisplay(!display);
+    }
+
+    const hideMainButton = () => {
+        setMainDisplay(!mainDisplay);
+    }
+    
     return (
         <div>
             <div className='grocery-display__container'>
@@ -11,7 +31,13 @@ function GroceryList(props) {
                     <img src={product.image} alt='grocery' className='grocery-display__img'/>
                     <p className='grocery-display__text'>{product.text}</p>
                     <p className='grocery-display__price'>&#8364;{product.price}</p>
-                    <button className='grocery-display__btn' onClick={() => onAdd(product)}>Į krepšelį</button>
+                    { mainDisplay ? 
+                     <button className='grocery-display__btn' onClick={() => {onAdd(product); showActionContainer(); hideMainButton()}}>Į krepšelį</button> 
+                     : null}
+                    { display ? 
+                    <ActionButtonContainer show={display} onAdd={onAdd} onRemove={onRemove} product={product} quant={quant}/> 
+                    : null
+                }   
                 </div>
             </div>
         </div>          

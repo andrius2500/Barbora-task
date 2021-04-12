@@ -18,7 +18,7 @@ function SelectPage() {
         } else {
             setCart([...cart, {...product, qty: 1 }]);
         }
-    })
+    });
 
     const removeItem = (product => {
         const exist = cart.find((x) => x.id === product.id);
@@ -33,7 +33,7 @@ function SelectPage() {
         setShowCart(!showCart);
     });
 
-    const groceryItem = grocery.map(item => <GroceryList key={item.id} product={item} onAdd={addToCart}/>);
+    const groceryItem = grocery.map(item => <GroceryList key={item.id} product={item} onAdd={addToCart} onRemove={removeItem} cartItems={cart}/>);
     
     const fullPrice = cart.reduce((a, b) => a + b.qty * b.price, 0);
 

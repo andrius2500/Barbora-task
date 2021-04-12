@@ -12,7 +12,7 @@
             color: #e22e39;
             font-weight: 600;
             font-size: 1.2rem;
-            width: 50%;
+            width: 8rem;
             text-align: center;
             margin-top: 35px;
             margin-left: 5px;
@@ -25,8 +25,8 @@
             outline: none;
             border-radius: 20px;
             margin-bottom: 10px;
-            width: 35vw;
-            height: 4vh;
+            width: 10rem;
+            height: 2rem;
             margin-top: 35px;
             margin-left: 20px;
             &:hover {
@@ -34,11 +34,11 @@
             }
         }
         .grocery-display__img {
-            width: 20vw;
+            width: 10rem;
             
         }
         .grocery-display__text {
-            font-size: 0.8rem;
+            font-size: 1rem;
             margin-left: 20px;
         }
     }
