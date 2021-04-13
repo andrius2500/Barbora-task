@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Barbora-task/static/css/main.d809da4d.chunk.css",
+    "main.js": "/Barbora-task/static/js/main.89ea7dc0.chunk.js",
+    "main.js.map": "/Barbora-task/static/js/main.89ea7dc0.chunk.js.map",
+    "runtime-main.js": "/Barbora-task/static/js/runtime-main.df8d192f.js",
+    "runtime-main.js.map": "/Barbora-task/static/js/runtime-main.df8d192f.js.map",
+    "static/js/2.4d59346d.chunk.js": "/Barbora-task/static/js/2.4d59346d.chunk.js",
+    "static/js/2.4d59346d.chunk.js.map": "/Barbora-task/static/js/2.4d59346d.chunk.js.map",
+    "static/js/3.a7ea3a30.chunk.js": "/Barbora-task/static/js/3.a7ea3a30.chunk.js",
+    "static/js/3.a7ea3a30.chunk.js.map": "/Barbora-task/static/js/3.a7ea3a30.chunk.js.map",
+    "index.html": "/Barbora-task/index.html",
+    "static/css/main.d809da4d.chunk.css.map": "/Barbora-task/static/css/main.d809da4d.chunk.css.map",
+    "static/js/2.4d59346d.chunk.js.LICENSE.txt": "/Barbora-task/static/js/2.4d59346d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df8d192f.js",
+    "static/js/2.4d59346d.chunk.js",
+    "static/css/main.d809da4d.chunk.css",
+    "static/js/main.89ea7dc0.chunk.js"
+  ]
+}
