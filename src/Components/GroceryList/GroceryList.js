@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ActionButtonContainer from '../ActionButtonContainer/ActionButtonContainer.js'
+import ActionButtonContainer from '../ActionButtonContainer/ActionButtonContainer.js';
 
 import './styles/styles.css';
 
@@ -14,8 +14,6 @@ function GroceryList(props) {
         }
     });
     
-    console.log(quant)
-
     const showActionContainer = () => {
         setDisplay(!display);
     }
@@ -23,7 +21,7 @@ function GroceryList(props) {
     const hideMainButton = () => {
         setMainDisplay(!mainDisplay);
     }
-    
+
     return (
         <div>
             <div className='grocery-display__container'>
@@ -37,7 +35,7 @@ function GroceryList(props) {
                     { display ? 
                     <ActionButtonContainer show={display} onAdd={onAdd} onRemove={onRemove} product={product} quant={quant}/> 
                     : null
-                }   
+                    } 
                 </div>
             </div>
         </div>          

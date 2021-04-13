@@ -29,17 +29,17 @@
   border-left: 1px solid black;
   height: 2rem;
 }
-.grocery-dsplay__action-container .grocery-display__action-btn .action-qty {
+.grocery-dsplay__action-container .grocery-display__action-btn .grocery-display__action-qty {
   margin: auto;
   font-size: 0.7rem;
 }
-.grocery-dsplay__action-container .grocery-dsplay__action-quant .grocery-dsplay__action-quant__text {
+.grocery-dsplay__action-container .grocery-dsplay__action-quant-wrapper .grocery-dsplay__text {
   margin-left: 40px;
   margin-top: -15px;
   font-size: 0.7rem;
   color: red;
 }
-.grocery-dsplay__action-container .grocery-dsplay__action-quant .grocery-dsplay__action-quant__text span {
+.grocery-dsplay__action-container .grocery-dsplay__action-quant-wrapper .grocery-dsplay__text span {
   font-weight: 700;
 }
 
@@ -54,7 +54,6 @@
     height: 3vh;
   }
   .grocery-dsplay__action-container .grocery-display__action-btn .action-btn {
-    background-color: #fff;
     margin-left: 10px;
     margin-right: 10px;
     width: 2.5vw;
@@ -65,14 +64,14 @@
   .grocery-dsplay__action-container .grocery-display__action-btn .action-btn--right {
     height: 3vh;
   }
-  .grocery-dsplay__action-container .grocery-display__action-btn .action-qty {
+  .grocery-dsplay__action-container .grocery-display__action-btn .grocery-display__action-qty {
     font-size: 1vw;
   }
-  .grocery-dsplay__action-container .grocery-dsplay__action-quant {
+  .grocery-dsplay__action-container .grocery-dsplay__action-quant-wrapper {
     width: 80%;
     margin: auto;
   }
-  .grocery-dsplay__action-container .grocery-dsplay__action-quant .grocery-dsplay__action-quant__text {
+  .grocery-dsplay__action-container .grocery-dsplay__action-quant-wrapper .grocery-dsplay__text {
     margin-left: 0px;
     font-size: 0.6vw;
     margin-top: -5px;
